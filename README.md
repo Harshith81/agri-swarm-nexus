@@ -1,73 +1,26 @@
-# Welcome to your Lovable project
+AgriChain is a decentralized network of AI agents that optimizes small-scale farming operations through collaborative intelligence, data sharing, and resource allocation. The system connects IoT devices on farms with autonomous agents that negotiate, trade, and collaborate to maximize agricultural efficiency and sustainability.
 
-## Project info
+## Problem Statement
+Small and medium-scale farmers face significant challenges: unpredictable weather patterns, resource constraints, market volatility, and limited access to technology. Traditional farming optimization tools are often centralized, expensive, and inaccessible to smaller operations who need them most.
 
-**URL**: https://lovable.dev/projects/04a3fd16-e6f0-4dfd-b267-79336c2bf7c0
+## Solution Overview
+AgriChain creates an agent-to-agent economy where:
+1. Sensor Agents collect and sell real-time environmental data (soil moisture, temperature, pest detection)
+2. Prediction Agents purchase and analyze this data to forecast weather conditions, pest outbreaks, and optimal harvest times
+3. Resource Allocation Agents negotiate irrigation schedules, fertilizer distribution, and equipment sharing between neighboring farms
+4. Market Agents track crop prices, demand patterns, and recommend optimal selling times or crop rotation strategies
+All agents interact in a decentralized marketplace, exchanging micro-payments for services rendered through smart contracts.
 
-## How can I edit this code?
+## Technical Implementation
+1. Microcontroller-based IoT sensors with minimal blockchain connectivity requirements
+2. Layer-2 scaling solution for high-frequency, low-cost microtransactions
+3. Agent reputation system using verifiable credentials
+4. Privacy-preserving data sharing using zero-knowledge proofs
+5. Smart contracts managing agent registration, service discovery, and payment escrows
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/04a3fd16-e6f0-4dfd-b267-79336c2bf7c0) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/04a3fd16-e6f0-4dfd-b267-79336c2bf7c0) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Impact & Innovation
+AgriChain introduces several innovative elements:
+* First practical application of multi-agent swarms in agriculture with real economic incentives
+* Creates accessible technology for small-scale farmers through low-cost IoT implementation
+* Enables collaborative farming practices while maintaining individual farm autonomy
+* Demonstrates real-world utility of agent-to-agent economies in critical infrastructure
