@@ -4,9 +4,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import AgentMarketplace from '@/components/AgentMarketplace';
+import LiveAgentMarketplace from '@/components/LiveAgentMarketplace';
 import IoTDashboard from '@/components/IoTDashboard';
-import ResourceAllocation from '@/components/ResourceAllocation';
+import InteractiveResourceAllocation from '@/components/InteractiveResourceAllocation';
 import SmartContractPanel from '@/components/SmartContractPanel';
 import AgentNetworkMap from '@/components/AgentNetworkMap';
 import { Database, Cpu, Network, Zap } from 'lucide-react';
@@ -92,7 +92,7 @@ const Index = () => {
           </TabsList>
 
           <TabsContent value="marketplace" className="space-y-6">
-            <AgentMarketplace />
+            <LiveAgentMarketplace />
           </TabsContent>
 
           <TabsContent value="iot" className="space-y-6">
@@ -100,7 +100,7 @@ const Index = () => {
           </TabsContent>
 
           <TabsContent value="resources" className="space-y-6">
-            <ResourceAllocation />
+            <InteractiveResourceAllocation />
           </TabsContent>
 
           <TabsContent value="contracts" className="space-y-6">
